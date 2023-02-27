@@ -1,0 +1,109 @@
+.bubbels {
+
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    color: rgb(7, 7, 7);
+    height: 100px;
+    width: 100px;
+    background-color: rgb(95, 95, 149);
+    bottom: 0px;
+    backdrop-filter: blur(50px);
+    animation: animate 4s ease-in infinite;
+    box-shadow: inset 1px -1px 15px white;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    
+    30% {
+        opacity: .1;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-1000%);
+    }
+}
+
+body {
+    background-color: black;
+
+}
+
+.bubbels:hover {
+
+    animation-play-state: paused;
+    cursor: pointer;
+    background-color: darkgoldenrod;
+    
+
+}
+
+.a {
+    margin-left: 120px;
+    animation: animate 3s ease-in infinite;
+    transform: translateY(100%);
+}
+
+.b {
+    margin-left: 240px;
+    animation: animate 5s ease-in infinite;
+    transform: translateY(1000%);
+
+}
+
+.c {
+    margin-left: 360px;
+    animation: animate 6s ease-in infinite;
+    transform: translateY(1000%);
+
+}
+
+.d {
+    margin-left: 480px;
+    animation: animate 5s ease-in infinite;
+    transform: translateY(1000%);
+}
+
+.e {
+    margin-left: 600px;
+    animation: animate 6s ease-in infinite;
+    transform: translateY(1000%);
+}
+
+.f {
+    margin-left: 720px;
+    animation: animate 4s ease-in infinite;
+    transform: translateY(1000%);
+}
+
+.g {
+    margin-left: 840px;
+    animation: animate 6s ease-in infinite;
+    transform: translateY(1000%);
+}
+
+.h {
+    margin-left: 960px;
+    animation: animate 3s ease-in infinite;
+    transform: translateY(1000%);
+}
+
+.i {
+    margin-left: 1080px;
+    animation: animate 5s ease-in infinite;
+    transform: translateY(1000%);
+}
+
+.j {
+    margin-left: 1200px;
+    animation: animate 4s ease-in infinite;
+    transform: translateY(1000%);
+}
